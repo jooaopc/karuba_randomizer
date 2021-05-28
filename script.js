@@ -30,6 +30,8 @@ function getImgAdress(id) {
 
 function reset() {
     let elements = document.querySelectorAll("#previous-tiles img")
+    
+    document.getElementById("current-tile").innerHTML = ""
 
     elements.forEach(element => {
         element.classList.add("unpicked")
@@ -40,4 +42,5 @@ function reset() {
     ]
 
     document.getElementById("next-tile").disabled = false
+
 }

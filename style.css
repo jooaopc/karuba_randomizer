@@ -40,6 +40,7 @@ div#current-tile {
 #current-tile img {
     width: 30%;
     height: 30%;
+    max-width: 300px;
 }
 
 
@@ -57,6 +58,7 @@ div#next-reset {
 #previous-tiles img {
     width: 10%;
     height: 10%;
+    max-width: 100px;
 }
 
 .unpicked {
