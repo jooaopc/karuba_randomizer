@@ -17,45 +17,9 @@
 
     <main>
         <div id="current-tile"></div>
-        <div id="next-reset"><button id="reset" onclick="reset()">Resetar</button><button id="next-tile" onclick="handleNextTile()">Próxima peça</button></div>
-        <div id="previous-tiles">
-            <img src="./tiles/tile1.png" data-tileid="1" class="unpicked">
-            <img src="./tiles/tile2.png" data-tileid="2" class="unpicked">
-            <img src="./tiles/tile3.png" data-tileid="3" class="unpicked">
-            <img src="./tiles/tile4.png" data-tileid="4" class="unpicked">
-            <img src="./tiles/tile5.png" data-tileid="5" class="unpicked">
-            <img src="./tiles/tile6.png" data-tileid="6" class="unpicked">
-            <img src="./tiles/tile7.png" data-tileid="7" class="unpicked">
-            <img src="./tiles/tile8.png" data-tileid="8" class="unpicked">
-            <img src="./tiles/tile9.png" data-tileid="9" class="unpicked">
-            <img src="./tiles/tile10.png" data-tileid="10" class="unpicked">
-            <img src="./tiles/tile11.png" data-tileid="11" class="unpicked">
-            <img src="./tiles/tile12.png" data-tileid="12" class="unpicked">
-            <img src="./tiles/tile13.png" data-tileid="13" class="unpicked">
-            <img src="./tiles/tile14.png" data-tileid="14" class="unpicked">
-            <img src="./tiles/tile15.png" data-tileid="15" class="unpicked">
-            <img src="./tiles/tile16.png" data-tileid="16" class="unpicked">
-            <img src="./tiles/tile17.png" data-tileid="17" class="unpicked">
-            <img src="./tiles/tile18.png" data-tileid="18" class="unpicked">
-            <img src="./tiles/tile19.png" data-tileid="19" class="unpicked">
-            <img src="./tiles/tile20.png" data-tileid="20" class="unpicked">
-            <img src="./tiles/tile21.png" data-tileid="21" class="unpicked">
-            <img src="./tiles/tile22.png" data-tileid="22" class="unpicked">
-            <img src="./tiles/tile23.png" data-tileid="23" class="unpicked">
-            <img src="./tiles/tile24.png" data-tileid="24" class="unpicked">
-            <img src="./tiles/tile25.png" data-tileid="25" class="unpicked">
-            <img src="./tiles/tile26.png" data-tileid="26" class="unpicked">
-            <img src="./tiles/tile27.png" data-tileid="27" class="unpicked">
-            <img src="./tiles/tile28.png" data-tileid="28" class="unpicked">
-            <img src="./tiles/tile29.png" data-tileid="29" class="unpicked">
-            <img src="./tiles/tile30.png" data-tileid="30" class="unpicked">
-            <img src="./tiles/tile31.png" data-tileid="31" class="unpicked">
-            <img src="./tiles/tile32.png" data-tileid="32" class="unpicked">
-            <img src="./tiles/tile33.png" data-tileid="33" class="unpicked">
-            <img src="./tiles/tile34.png" data-tileid="34" class="unpicked">
-            <img src="./tiles/tile35.png" data-tileid="35" class="unpicked">
-            <img src="./tiles/tile36.png" data-tileid="36" class="unpicked">
-        </div>
+        <button id="reset" onclick="reset()">Resetar</button>
+        <button id="previous-tile" onclick="goBack()">Anterior</button>
+        <button id="next-tile" onclick="handleNextTile()">Próxima</button>
     </main>
     <script src="script.js"></script>
 </body>
